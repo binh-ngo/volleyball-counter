@@ -11,89 +11,30 @@ struct ContentView: View {
     @State private var teamAPoints = 0
     @State private var teamBPoints = 0
     @State private var isWinner = false
-
+    
+    private let mdTextSize = UIScreen.main.bounds.width * 0.15
+    private let smTextSize = UIScreen.main.bounds.width * 0.03
+    
     var body: some View {
         ZStack {
             HStack(spacing:0) {
-                ZStack {
-                    VStack(spacing: 0) {
-                        Button(action: {
-                            incrementTeamPoints(team: "A")
-                        }) {
-                            Color.red.edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-                        }
-                        Button(action: {
-                            if teamAPoints > 0 {
-                                teamAPoints -= 1
-                            }
-                        })
-                        {
-                            Color.red.edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-                        }
-                    }
-                    Text("\(teamAPoints)")
-                        .font(.system(size: UIScreen.main.bounds.width * 0.15))
-                        .foregroundColor(.white)
-                        .frame(maxWidth: .infinity)
-                }
-                ZStack{
-                    VStack(spacing: 0) {
-                        Button(action: {
-                            incrementTeamPoints(team: "B")
-                        }) {
-                            Color.blue.edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-                        }
-                        Button(action: {
-                            if teamBPoints > 0 {
-                                teamBPoints -= 1
-                            }
-                        }) {
-                            Color.blue.edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-                        }
-                    }
-                    .frame(maxWidth: .infinity, maxHeight: .infinity)
-                    Text("\(teamBPoints)")
-                        .font(.system(size: UIScreen.main.bounds.width * 0.15))
-                        .foregroundColor(.white)
-                        .frame(maxWidth: .infinity)
-                }
+                TeamCounter(points: $teamAPoints, teamAPoints: $teamAPoints, teamBPoints: $teamBPoints, color: .red)
+              TeamCounter(points: $teamBPoints, teamAPoints: $teamAPoints, teamBPoints: $teamBPoints, color: .blue)
             }
             if isWinner {
-                Button(action: {
-                    teamAPoints = 0
-                    teamBPoints = 0
-                    isWinner = false
-                }) {
-                    Text("Team \(teamAPoints > teamBPoints ? "A" : "B") wins!")
-                        .font(.system(size: UIScreen.main.bounds.width * 0.03))
-                        .foregroundColor(.white)
-                        .padding()
-                        .background(Color.black)
-                        .cornerRadius(10)
-                }
+                WinnerButton(team: teamAPoints > teamBPoints ? "A" : "B", action: resetGame)
             } else {
-                Button(action: {
-                    teamAPoints = 0
-                    teamBPoints = 0
-                    isWinner = false
-                }) {
-                    Text("Reset")
-                        .font(.system(size: UIScreen.main.bounds.width * 0.03))
-                        .foregroundColor(.white)
-                        .padding(35)
-                        .background(Color.black)
-                        .clipShape(Circle())
-                    }
-                }
-           }
-        .onChange(of: teamAPoints) {
-                       checkWinner()
+                ResetButton(action: resetGame)
+            }
+        }
+                .onChange(of: teamAPoints) {
+                   checkWinner()
                    }
-                   .onChange(of: teamBPoints) {
-                       checkWinner()
-                   }
+               .onChange(of: teamBPoints) {
+                   checkWinner()
                    
-               }
+                    }
+            }
     
     private func incrementTeamPoints(team: String) {
         if (team == "A" && (teamAPoints < 25 || abs(teamAPoints - teamBPoints) <= 1)) ||
@@ -115,7 +56,15 @@ struct ContentView: View {
             isWinner = false
         }
     }
-}
+
+    private func resetGame() {
+          teamAPoints = 0
+          teamBPoints = 0
+          isWinner = false
+      }
+  }
+
+
 #Preview {
     ContentView()
 }

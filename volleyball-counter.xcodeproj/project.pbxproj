@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E85135F02B8416AA00107428 /* CounterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85135EF2B8416AA00107428 /* CounterButton.swift */; };
+		E85135F22B84173700107428 /* TeamCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85135F12B84173700107428 /* TeamCounter.swift */; };
+		E85135F42B84178B00107428 /* WinnerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85135F32B84178B00107428 /* WinnerButton.swift */; };
+		E85135F62B8417A400107428 /* ResetButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85135F52B8417A400107428 /* ResetButton.swift */; };
 		E86635FD2B83D24A00C7D070 /* volleyball_counterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86635FC2B83D24A00C7D070 /* volleyball_counterApp.swift */; };
 		E86635FF2B83D24A00C7D070 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86635FE2B83D24A00C7D070 /* ContentView.swift */; };
 		E86636012B83D24E00C7D070 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E86636002B83D24E00C7D070 /* Assets.xcassets */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E85135EF2B8416AA00107428 /* CounterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterButton.swift; sourceTree = "<group>"; };
+		E85135F12B84173700107428 /* TeamCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCounter.swift; sourceTree = "<group>"; };
+		E85135F32B84178B00107428 /* WinnerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinnerButton.swift; sourceTree = "<group>"; };
+		E85135F52B8417A400107428 /* ResetButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetButton.swift; sourceTree = "<group>"; };
 		E86635F92B83D24A00C7D070 /* volleyball-counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "volleyball-counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E86635FC2B83D24A00C7D070 /* volleyball_counterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = volleyball_counterApp.swift; sourceTree = "<group>"; };
 		E86635FE2B83D24A00C7D070 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,6 +106,10 @@
 				E86635FE2B83D24A00C7D070 /* ContentView.swift */,
 				E86636002B83D24E00C7D070 /* Assets.xcassets */,
 				E86636022B83D24E00C7D070 /* Preview Content */,
+				E85135EF2B8416AA00107428 /* CounterButton.swift */,
+				E85135F12B84173700107428 /* TeamCounter.swift */,
+				E85135F32B84178B00107428 /* WinnerButton.swift */,
+				E85135F52B8417A400107428 /* ResetButton.swift */,
 			);
 			path = "volleyball-counter";
 			sourceTree = "<group>";
@@ -257,8 +269,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E85135F42B84178B00107428 /* WinnerButton.swift in Sources */,
+				E85135F62B8417A400107428 /* ResetButton.swift in Sources */,
 				E86635FF2B83D24A00C7D070 /* ContentView.swift in Sources */,
+				E85135F02B8416AA00107428 /* CounterButton.swift in Sources */,
 				E86635FD2B83D24A00C7D070 /* volleyball_counterApp.swift in Sources */,
+				E85135F22B84173700107428 /* TeamCounter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
