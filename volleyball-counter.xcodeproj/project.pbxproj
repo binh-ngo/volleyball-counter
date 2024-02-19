@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E86635FD2B83D24A00C7D070 /* volleyball_counterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86635FC2B83D24A00C7D070 /* volleyball_counterApp.swift */; };
+		E86635FF2B83D24A00C7D070 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86635FE2B83D24A00C7D070 /* ContentView.swift */; };
+		E86636012B83D24E00C7D070 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E86636002B83D24E00C7D070 /* Assets.xcassets */; };
+		E86636042B83D24E00C7D070 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E86636032B83D24E00C7D070 /* Preview Assets.xcassets */; };
+		E866360E2B83D24E00C7D070 /* volleyball_counterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E866360D2B83D24E00C7D070 /* volleyball_counterTests.swift */; };
+		E86636182B83D24E00C7D070 /* volleyball_counterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86636172B83D24E00C7D070 /* volleyball_counterUITests.swift */; };
+		E866361A2B83D24E00C7D070 /* volleyball_counterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86636192B83D24E00C7D070 /* volleyball_counterUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E866360A2B83D24E00C7D070 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E86635F12B83D24A00C7D070 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E86635F82B83D24A00C7D070;
+			remoteInfo = "volleyball-counter";
+		};
+		E86636142B83D24E00C7D070 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E86635F12B83D24A00C7D070 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E86635F82B83D24A00C7D070;
+			remoteInfo = "volleyball-counter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E86635F92B83D24A00C7D070 /* volleyball-counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "volleyball-counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E86635FC2B83D24A00C7D070 /* volleyball_counterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = volleyball_counterApp.swift; sourceTree = "<group>"; };
+		E86635FE2B83D24A00C7D070 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E86636002B83D24E00C7D070 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E86636032B83D24E00C7D070 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E86636092B83D24E00C7D070 /* volleyball-counterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "volleyball-counterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E866360D2B83D24E00C7D070 /* volleyball_counterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = volleyball_counterTests.swift; sourceTree = "<group>"; };
+		E86636132B83D24E00C7D070 /* volleyball-counterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "volleyball-counterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E86636172B83D24E00C7D070 /* volleyball_counterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = volleyball_counterUITests.swift; sourceTree = "<group>"; };
+		E86636192B83D24E00C7D070 /* volleyball_counterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = volleyball_counterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E86635F62B83D24A00C7D070 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E86636062B83D24E00C7D070 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E86636102B83D24E00C7D070 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E86635F02B83D24A00C7D070 = {
+			isa = PBXGroup;
+			children = (
+				E86635FB2B83D24A00C7D070 /* volleyball-counter */,
+				E866360C2B83D24E00C7D070 /* volleyball-counterTests */,
+				E86636162B83D24E00C7D070 /* volleyball-counterUITests */,
+				E86635FA2B83D24A00C7D070 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E86635FA2B83D24A00C7D070 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E86635F92B83D24A00C7D070 /* volleyball-counter.app */,
+				E86636092B83D24E00C7D070 /* volleyball-counterTests.xctest */,
+				E86636132B83D24E00C7D070 /* volleyball-counterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E86635FB2B83D24A00C7D070 /* volleyball-counter */ = {
+			isa = PBXGroup;
+			children = (
+				E86635FC2B83D24A00C7D070 /* volleyball_counterApp.swift */,
+				E86635FE2B83D24A00C7D070 /* ContentView.swift */,
+				E86636002B83D24E00C7D070 /* Assets.xcassets */,
+				E86636022B83D24E00C7D070 /* Preview Content */,
+			);
+			path = "volleyball-counter";
+			sourceTree = "<group>";
+		};
+		E86636022B83D24E00C7D070 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E86636032B83D24E00C7D070 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E866360C2B83D24E00C7D070 /* volleyball-counterTests */ = {
+			isa = PBXGroup;
+			children = (
+				E866360D2B83D24E00C7D070 /* volleyball_counterTests.swift */,
+			);
+			path = "volleyball-counterTests";
+			sourceTree = "<group>";
+		};
+		E86636162B83D24E00C7D070 /* volleyball-counterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E86636172B83D24E00C7D070 /* volleyball_counterUITests.swift */,
+				E86636192B83D24E00C7D070 /* volleyball_counterUITestsLaunchTests.swift */,
+			);
+			path = "volleyball-counterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E86635F82B83D24A00C7D070 /* volleyball-counter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E866361D2B83D24E00C7D070 /* Build configuration list for PBXNativeTarget "volleyball-counter" */;
+			buildPhases = (
+				E86635F52B83D24A00C7D070 /* Sources */,
+				E86635F62B83D24A00C7D070 /* Frameworks */,
+				E86635F72B83D24A00C7D070 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "volleyball-counter";
+			productName = "volleyball-counter";
+			productReference = E86635F92B83D24A00C7D070 /* volleyball-counter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E86636082B83D24E00C7D070 /* volleyball-counterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E86636202B83D24E00C7D070 /* Build configuration list for PBXNativeTarget "volleyball-counterTests" */;
+			buildPhases = (
+				E86636052B83D24E00C7D070 /* Sources */,
+				E86636062B83D24E00C7D070 /* Frameworks */,
+				E86636072B83D24E00C7D070 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E866360B2B83D24E00C7D070 /* PBXTargetDependency */,
+			);
+			name = "volleyball-counterTests";
+			productName = "volleyball-counterTests";
+			productReference = E86636092B83D24E00C7D070 /* volleyball-counterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E86636122B83D24E00C7D070 /* volleyball-counterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E86636232B83D24E00C7D070 /* Build configuration list for PBXNativeTarget "volleyball-counterUITests" */;
+			buildPhases = (
+				E866360F2B83D24E00C7D070 /* Sources */,
+				E86636102B83D24E00C7D070 /* Frameworks */,
+				E86636112B83D24E00C7D070 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E86636152B83D24E00C7D070 /* PBXTargetDependency */,
+			);
+			name = "volleyball-counterUITests";
+			productName = "volleyball-counterUITests";
+			productReference = E86636132B83D24E00C7D070 /* volleyball-counterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E86635F12B83D24A00C7D070 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					E86635F82B83D24A00C7D070 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					E86636082B83D24E00C7D070 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = E86635F82B83D24A00C7D070;
+					};
+					E86636122B83D24E00C7D070 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = E86635F82B83D24A00C7D070;
+					};
+				};
+			};
+			buildConfigurationList = E86635F42B83D24A00C7D070 /* Build configuration list for PBXProject "volleyball-counter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E86635F02B83D24A00C7D070;
+			productRefGroup = E86635FA2B83D24A00C7D070 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E86635F82B83D24A00C7D070 /* volleyball-counter */,
+				E86636082B83D24E00C7D070 /* volleyball-counterTests */,
+				E86636122B83D24E00C7D070 /* volleyball-counterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E86635F72B83D24A00C7D070 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E86636042B83D24E00C7D070 /* Preview Assets.xcassets in Resources */,
+				E86636012B83D24E00C7D070 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E86636072B83D24E00C7D070 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E86636112B83D24E00C7D070 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E86635F52B83D24A00C7D070 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E86635FF2B83D24A00C7D070 /* ContentView.swift in Sources */,
+				E86635FD2B83D24A00C7D070 /* volleyball_counterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E86636052B83D24E00C7D070 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E866360E2B83D24E00C7D070 /* volleyball_counterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E866360F2B83D24E00C7D070 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E86636182B83D24E00C7D070 /* volleyball_counterUITests.swift in Sources */,
+				E866361A2B83D24E00C7D070 /* volleyball_counterUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E866360B2B83D24E00C7D070 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E86635F82B83D24A00C7D070 /* volleyball-counter */;
+			targetProxy = E866360A2B83D24E00C7D070 /* PBXContainerItemProxy */;
+		};
+		E86636152B83D24E00C7D070 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E86635F82B83D24A00C7D070 /* volleyball-counter */;
+			targetProxy = E86636142B83D24E00C7D070 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E866361B2B83D24E00C7D070 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E866361C2B83D24E00C7D070 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E866361E2B83D24E00C7D070 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"volleyball-counter/Preview Content\"";
+				DEVELOPMENT_TEAM = XC5AQAJYU4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.binhngo.volleyball-counter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E866361F2B83D24E00C7D070 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"volleyball-counter/Preview Content\"";
+				DEVELOPMENT_TEAM = XC5AQAJYU4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.binhngo.volleyball-counter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E86636212B83D24E00C7D070 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XC5AQAJYU4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.binhngo.volleyball-counterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/volleyball-counter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/volleyball-counter";
+			};
+			name = Debug;
+		};
+		E86636222B83D24E00C7D070 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XC5AQAJYU4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.binhngo.volleyball-counterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/volleyball-counter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/volleyball-counter";
+			};
+			name = Release;
+		};
+		E86636242B83D24E00C7D070 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XC5AQAJYU4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.binhngo.volleyball-counterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "volleyball-counter";
+			};
+			name = Debug;
+		};
+		E86636252B83D24E00C7D070 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XC5AQAJYU4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.binhngo.volleyball-counterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "volleyball-counter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E86635F42B83D24A00C7D070 /* Build configuration list for PBXProject "volleyball-counter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E866361B2B83D24E00C7D070 /* Debug */,
+				E866361C2B83D24E00C7D070 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E866361D2B83D24E00C7D070 /* Build configuration list for PBXNativeTarget "volleyball-counter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E866361E2B83D24E00C7D070 /* Debug */,
+				E866361F2B83D24E00C7D070 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E86636202B83D24E00C7D070 /* Build configuration list for PBXNativeTarget "volleyball-counterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E86636212B83D24E00C7D070 /* Debug */,
+				E86636222B83D24E00C7D070 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E86636232B83D24E00C7D070 /* Build configuration list for PBXNativeTarget "volleyball-counterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E86636242B83D24E00C7D070 /* Debug */,
+				E86636252B83D24E00C7D070 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E86635F12B83D24A00C7D070 /* Project object */;
+}
